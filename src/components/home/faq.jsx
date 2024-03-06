@@ -1,5 +1,5 @@
-import { Image, Collapse } from "antd";
-import faqList from "@/utils/home/faqList";
+import Image from "next/image";
+import AccordionFaq from "./accordionFaq";
 
 const Faq = () => {
   return (
@@ -7,17 +7,21 @@ const Faq = () => {
       <div className="mx-auto mt-10 sm:mt-28 md:mt-24 lg:mt-0 lg:mb-20 relative">
         {/* Rectangle Group Start */}
         <div className="mx-5">
-          <div className="inline">
+          <div className="inline-block">
             <Image
               src="/icons/home/rectangle-faq.svg"
-              className="!w-32 md:!w-44 lg:!w-[300px]"
+              width={0}
+              height={0}
+              className="w-32 md:w-44 lg:w-[300px]"
             />
           </div>
 
-          <div className="inline -ml-28 md:-ml-[150px] lg:-ml-[280px]">
+          <div className="inline-block -ml-28 md:-ml-[150px] lg:-ml-[280px]">
             <Image
               src="/icons/home/rectangle-faq.svg"
-              className="!w-32 md:!w-44 lg:!w-[300px]"
+              width={0}
+              height={0}
+              className="w-32 md:w-44 lg:w-[300px]"
             />
           </div>
         </div>
@@ -31,12 +35,7 @@ const Faq = () => {
       </div>
 
       <div className="w-2/3 lg:w-1/2 ml-auto mx-auto mb-14 mt-5">
-        <Collapse
-          items={faqList}
-          bordered={false}
-          size="small"
-          className="bg-secondary text-xl md:text-2xl"
-        />
+        <AccordionFaq />
       </div>
     </div>
   );
