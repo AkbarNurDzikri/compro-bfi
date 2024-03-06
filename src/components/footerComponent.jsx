@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const FooterComponent = () => {
   return (
@@ -37,10 +38,12 @@ const FooterComponent = () => {
             PT. Blasfolie Internasional Indonesia
           </h4>
 
-          <img
+          <Image
             src="/icons/footer/logo-map.svg"
-            alt="map-icon"
-            className="inline"
+            width={0}
+            height={0}
+            className="inline w-7"
+            alt="logo-map"
           />
 
           <p className="inline text-md ml-2">
@@ -81,10 +84,12 @@ const FooterComponent = () => {
             | CONTACT
           </h3>
 
-          <img
+          <Image
             src="/icons/footer/logo-phone.svg"
-            alt="phone-icon"
-            className="inline"
+            width={0}
+            height={0}
+            className="inline w-7"
+            alt="logo-phone"
           />
 
           <span className="ml-3">(0267) 8458855</span>

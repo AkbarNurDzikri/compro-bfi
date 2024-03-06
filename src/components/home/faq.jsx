@@ -13,6 +13,7 @@ const Faq = () => {
               width={0}
               height={0}
               className="w-32 md:w-44 lg:w-[300px]"
+              alt="rectangle-icon"
             />
           </div>
 
@@ -22,6 +23,7 @@ const Faq = () => {
               width={0}
               height={0}
               className="w-32 md:w-44 lg:w-[300px]"
+              alt="rectangle-icon"
             />
           </div>
         </div>

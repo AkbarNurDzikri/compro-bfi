@@ -6,7 +6,7 @@ const AccordionFaq = () => {
   return (
     <div>
       {faqList.map((faqItem) => (
-        <Accordion>
+        <Accordion key={faqItem.label}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             {faqItem.label}
           </AccordionSummary>
