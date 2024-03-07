@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FooterComponent = () => {
   return (
-    <div className="rectangleFooter lg:rectangleFooterLg text-secondary bg-third -mt-[88px] sm:-mt-[55px] md:-mt-[65px] lg:-mt-[127px] pt-[100px] pb-10 md:grid md:grid-cols-3 px-10">
+    <div className="rectangleFooter sm:rectangleFooterSm lg:rectangleFooterLg text-secondary bg-third -mt-[140px] sm:-mt-[75px] md:-mt-[65px] lg:-mt-[120px] pt-[100px] pb-10 md:grid md:grid-cols-3 px-10">
       <div className="text-center md:text-start mx-5 mt-10">
         <h3 className="text-xl text-zink-900 mr-3 font-bold">
           <span className="hidden md:inline">|</span> ABOUT US

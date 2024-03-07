@@ -3,8 +3,7 @@ const faqList = [
     label: "Apakah Blasfolie sudah tersertifikasi?",
     children: (
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-        repellat suscipit, hic sapiente perferendis quisquam!
+        Blasfolie sudah memiliki sertifikat iso 9001:2015 dan sertifikat halal
       </p>
     ),
   },
@@ -12,11 +11,9 @@ const faqList = [
     label: "Produk Blasfolie digunakan untuk apa saja?",
     children: (
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
-        dolorum nemo a nam. Suscipit nihil quaerat laudantium dolore, reiciendis
-        iusto tempora quam quasi, consectetur distinctio, praesentium totam
-        similique dignissimos ullam optio provident voluptatem nam sunt cumque
-        reprehenderit libero deleniti? Ipsa eos nobis quaerat aut delectus!
+        Produk Blasfolie secara umum digunakan sebagai sealant layer pada
+        kemasan fleksibel untuk makanan cair, makanan bubuk, makanan kering,
+        sampo, dan lain-lain.
       </p>
     ),
   },
@@ -24,8 +21,8 @@ const faqList = [
     label: "Cara mengetahui harga produk?",
     children: (
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda,
-        molestiae alias commodi nam saepe eligendi odio ipsam. Vero, quisquam?
+        Dengan menghubungi Marketing Blasfolie via email :
+        marketing@blasfolie-indonesia.com atau telepon : (0267) 8458855
       </p>
     ),
   },
@@ -33,10 +30,8 @@ const faqList = [
     label: "Bagaimana cara memesan produk?",
     children: (
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi
-        provident, porro quisquam aliquam nulla nam laudantium eos assumenda
-        culpa voluptatem aut maiores facilis ex debitis voluptas sed officia.
-        Porro.
+        Dengan menghubungi Marketing Blasfolie via email :
+        marketing@blasfolie-indonesia.com atau telepon : (0267) 8458855
       </p>
     ),
   },
@@ -44,8 +39,8 @@ const faqList = [
     label: "Cara mengajukan keluhan terhadap produk yang dibeli",
     children: (
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-        praesentium.
+        Keluhan produk dapat dikirimkan via email :
+        marketing@blasfolie-indonesia.com
       </p>
     ),
   },

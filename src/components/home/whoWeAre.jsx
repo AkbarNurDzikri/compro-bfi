@@ -9,7 +9,7 @@ const WhoWheAre = () => {
   return (
     <>
       <div className="w-full h-24 sm:h-32 lg:h-40 bg-gradient-to-b from-third to-third/0 opacity-80 -mt-5 sm:-mt-7">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-center text-secondary pt-8 sm:pt-12">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-secondary pt-8 sm:pt-12">
           WHO WE ARE
         </h1>
       </div>
@@ -90,10 +90,10 @@ const WhoWheAre = () => {
 
           <div className="text-white border border-dotted border-primary flex justify-center items-end">
             <div className="mb-5">
-              <h4 className="text-center text-white text-lg sm:text-2xl lg:text-4xl font-semibold md:font-bold">
+              <h4 className="text-center text-white text-lg sm:text-xl lg:text-4xl font-semibold md:font-bold">
                 Customers
               </h4>
-              <h3 className="text-white text-lg sm:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
+              <h3 className="text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
                 100+
               </h3>
             </div>
@@ -101,10 +101,10 @@ const WhoWheAre = () => {
 
           <div className="text-white border border-dotted border-primary flex justify-center items-end">
             <div className="mb-5">
-              <h4 className="text-center text-white text-lg sm:text-2xl lg:text-3xl font-semibold md:font-bold">
+              <h4 className="text-center text-white text-lg sm:text-xl lg:text-3xl font-semibold md:font-bold">
                 Delivered to Customers
               </h4>
-              <h3 className="text-white text-lg sm:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
+              <h3 className="text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
                 40.500 MT
               </h3>
             </div>
@@ -112,10 +112,10 @@ const WhoWheAre = () => {
 
           <div className="text-white border border-dotted border-primary flex justify-center items-end">
             <div className="mb-5">
-              <h4 className="text-center text-white text-lg sm:text-2xl lg:text-4xl font-semibold md:font-bold">
+              <h4 className="text-center text-white text-lg sm:text-xl lg:text-4xl font-semibold md:font-bold">
                 Experience
               </h4>
-              <h3 className="text-white text-lg sm:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
+              <h3 className="text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
                 25 Years +
               </h3>
             </div>

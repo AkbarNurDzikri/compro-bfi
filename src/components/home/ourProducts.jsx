@@ -4,19 +4,19 @@ import ProductCarousel from "./productCarousel";
 
 const OurProducts = () => {
   return (
-    <div className="w-full bg-gradient-to-b from-fifth via-sixth to-primary/0 pt-10">
-      <h1 className=" text-secondary font-bold text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+    <div className="w-full bg-gradient-to-b from-fifth from-37% via-sixth via-20% to-primary/0 to-80% pt-10">
+      <h1 className=" text-secondary font-bold text-center text-3xl md:text-4xl lg:text-5xl">
         OUR PRODUCTS
       </h1>
 
       <ProductCarousel />
 
-      <div className="text-secondary sm:text-zinc-950 pb-10">
-        <h5 className="text-center tracking-wide font-semibold text-lg sm:text-xl md:text-2xl lg:text-3xl">
+      <div className="sm:text-zinc-950 py-20">
+        <h5 className="text-center tracking-wide font-semibold text-lg md:text-xl lg:text-2xl">
           WORK OF EXCELLENCE
         </h5>
 
-        <h1 className="font-bold text-center text-xl sm:text-2xl md:text-3xl lg:text-5xl">
+        <h1 className="font-bold text-center text-xl md:text-3xl lg:text-5xl">
           OUR COMMITMENT CERTIFICATES
         </h1>
 
