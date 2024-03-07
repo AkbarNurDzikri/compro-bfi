@@ -1,15 +1,6 @@
 const faqList = [
   {
-    label: "Q1",
-    children: (
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
-        praesentium.
-      </p>
-    ),
-  },
-  {
-    label: "Q2",
+    label: "Apakah Blasfolie sudah tersertifikasi?",
     children: (
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -18,7 +9,19 @@ const faqList = [
     ),
   },
   {
-    label: "Q3",
+    label: "Produk Blasfolie digunakan untuk apa saja?",
+    children: (
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
+        dolorum nemo a nam. Suscipit nihil quaerat laudantium dolore, reiciendis
+        iusto tempora quam quasi, consectetur distinctio, praesentium totam
+        similique dignissimos ullam optio provident voluptatem nam sunt cumque
+        reprehenderit libero deleniti? Ipsa eos nobis quaerat aut delectus!
+      </p>
+    ),
+  },
+  {
+    label: "Cara mengetahui harga produk?",
     children: (
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda,
@@ -27,7 +30,7 @@ const faqList = [
     ),
   },
   {
-    label: "Q4",
+    label: "Bagaimana cara memesan produk?",
     children: (
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi
@@ -38,14 +41,11 @@ const faqList = [
     ),
   },
   {
-    label: "Q5",
+    label: "Cara mengajukan keluhan terhadap produk yang dibeli",
     children: (
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique
-        dolorum nemo a nam. Suscipit nihil quaerat laudantium dolore, reiciendis
-        iusto tempora quam quasi, consectetur distinctio, praesentium totam
-        similique dignissimos ullam optio provident voluptatem nam sunt cumque
-        reprehenderit libero deleniti? Ipsa eos nobis quaerat aut delectus!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi,
+        praesentium.
       </p>
     ),
   },

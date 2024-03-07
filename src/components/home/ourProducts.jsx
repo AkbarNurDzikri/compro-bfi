@@ -1,8 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import productList from "@/utils/home/productList";
-// import { Carousel, Card, Image } from "antd";
-import Link from "next/link";
 import ProductCarousel from "./productCarousel";
 
 const OurProducts = () => {

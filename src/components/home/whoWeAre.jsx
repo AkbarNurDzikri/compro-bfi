@@ -42,7 +42,7 @@ const WhoWheAre = () => {
               className="w-10 mx-auto sm:inline"
               alt="icon"
             />
-            <h4 className="text-sm max-w-20 sm:max-w-full mx-auto md:text-md lg:text-lg font-bold sm:inline">
+            <h4 className="text-sm md:text-md lg:text-xl max-w-20 sm:max-w-full mx-auto font-bold sm:inline">
               TEAM OF PROFESSIONAL
             </h4>
           </div>
@@ -53,7 +53,7 @@ const WhoWheAre = () => {
               className="w-10 mx-auto sm:inline"
               alt="icon"
             />
-            <h4 className="text-sm max-w-20 sm:max-w-full mx-auto md:text-md lg:text-lg font-bold sm:inline">
+            <h4 className="text-sm md:text-md lg:text-xl max-w-20 sm:max-w-full mx-auto font-bold sm:inline">
               GUIDED BY COMMITMENT
             </h4>
           </div>
@@ -64,7 +64,7 @@ const WhoWheAre = () => {
               className="w-8 mx-auto sm:inline"
               alt="icon"
             />
-            <h4 className="text-sm max-w-20 sm:max-w-full mx-auto md:text-md lg:text-lg font-bold sm:inline">
+            <h4 className="text-sm md:text-md lg:text-xl max-w-20 sm:max-w-full mx-auto font-bold sm:inline">
               REPUTATION FOR EXCELLENCE
             </h4>
           </div>
@@ -75,14 +75,14 @@ const WhoWheAre = () => {
               className="w-8 mx-auto sm:inline"
               alt="icon"
             />
-            <h4 className="text-sm max-w-20 sm:max-w-full mx-auto md:text-md lg:text-lg font-bold sm:inline">
+            <h4 className="text-sm md:text-md lg:text-xl max-w-20 sm:max-w-full mx-auto font-bold sm:inline">
               WE BUILD PARTNERSHIPS
             </h4>
           </div>
         </div>
       </div>
 
-      <div className="bg-secondary">
+      <div className="bg-gradient-to-b from-white to-secondary">
         <div className="w-full h-96 md:h-[500px] bg-fourth polygonLeft md:polygonLeftMd -mt-[300px]"></div>
 
         <div className="w-full h-72 md:h-[500px] bg-third polygonRight grid grid-cols-4 md:grid-cols-5 -mt-[115px] md:-mt-[200px]">
@@ -90,10 +90,10 @@ const WhoWheAre = () => {
 
           <div className="text-white border border-dotted border-primary flex justify-center items-end">
             <div className="mb-5">
-              <h4 className="text-center text-white text-md sm:text-2xl lg:text-3xl font-semibold md:font-bold">
+              <h4 className="text-center text-white text-lg sm:text-2xl lg:text-4xl font-semibold md:font-bold">
                 Customers
               </h4>
-              <h3 className="text-white text-sm sm:text-lg md:text-2xl lg:text-3xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
+              <h3 className="text-white text-lg sm:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
                 100+
               </h3>
             </div>
@@ -101,22 +101,22 @@ const WhoWheAre = () => {
 
           <div className="text-white border border-dotted border-primary flex justify-center items-end">
             <div className="mb-5">
-              <h4 className="text-center text-white text-md sm:text-2xl lg:text-3xl font-semibold md:font-bold">
-                Supplied
+              <h4 className="text-center text-white text-lg sm:text-2xl lg:text-3xl font-semibold md:font-bold">
+                Delivered to Customers
               </h4>
-              <h3 className="text-white text-sm sm:text-lg md:text-2xl lg:text-3xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
-                5 Billion {"Kg's"}
+              <h3 className="text-white text-lg sm:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
+                40.500 MT
               </h3>
             </div>
           </div>
 
           <div className="text-white border border-dotted border-primary flex justify-center items-end">
             <div className="mb-5">
-              <h4 className="text-center text-white text-md sm:text-2xl lg:text-3xl font-semibold md:font-bold">
+              <h4 className="text-center text-white text-lg sm:text-2xl lg:text-4xl font-semibold md:font-bold">
                 Experience
               </h4>
-              <h3 className="text-white text-sm sm:text-lg md:text-2xl lg:text-3xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
-                25+
+              <h3 className="text-white text-lg sm:text-3xl lg:text-4xl font-semibold text-center mt-16 md:mt-20 lg:mt-24">
+                25 Years +
               </h3>
             </div>
           </div>

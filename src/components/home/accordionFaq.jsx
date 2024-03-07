@@ -7,7 +7,10 @@ const AccordionFaq = () => {
     <div>
       {faqList.map((faqItem) => (
         <Accordion key={faqItem.label}>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            className="font-semibold"
+          >
             {faqItem.label}
           </AccordionSummary>
           <AccordionDetails>{faqItem.children}</AccordionDetails>

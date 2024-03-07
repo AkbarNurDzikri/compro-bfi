@@ -6,7 +6,7 @@ const Faq = () => {
     <div className="bg-seventh rectangleFaq lg:rectangleFaqLg flex flex-wrap pb-24 sm:pb-42 sm:pt-5 sm:pb-10 md:pt-5 md:pb-10 lg:pt-10 lg:pb-20">
       <div className="mx-auto mt-10 sm:mt-28 md:mt-24 lg:mt-0 lg:mb-20 relative">
         {/* Rectangle Group Start */}
-        <div className="mx-5">
+        <div className="mx-3">
           <div className="inline-block">
             <Image
               src="/icons/home/rectangle-faq.svg"

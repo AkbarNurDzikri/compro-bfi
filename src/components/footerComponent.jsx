@@ -5,7 +5,9 @@ const FooterComponent = () => {
   return (
     <div className="rectangleFooter lg:rectangleFooterLg text-secondary bg-third -mt-[88px] sm:-mt-[55px] md:-mt-[65px] lg:-mt-[127px] pt-[100px] pb-10 md:grid md:grid-cols-3 px-10">
       <div className="text-center md:text-start mx-5 mt-10">
-        <h3 className="text-xl text-zink-900 mr-3 font-bold">| ABOUT US</h3>
+        <h3 className="text-xl text-zink-900 mr-3 font-bold">
+          <span className="hidden md:inline">|</span> ABOUT US
+        </h3>
 
         <h4 className="text-lg font-bold my-3">
           PT. Blasfolie Internasional Indonesia
@@ -23,7 +25,7 @@ const FooterComponent = () => {
       <div className="text-center md:text-start mx-5 mt-10">
         <div>
           <h3 className="text-xl text-zink-900 mr-3 font-bold">
-            | WORKING HOURS
+            <span className="hidden md:inline">|</span> WORKING HOURS
           </h3>
 
           <h4 className="text-lg font-bold my-3">
@@ -32,7 +34,9 @@ const FooterComponent = () => {
         </div>
 
         <div className="mt-10 md:mt-16">
-          <h3 className="text-xl text-zink-900 mr-3 font-bold">| MAPS</h3>
+          <h3 className="text-xl text-zink-900 mr-3 font-bold">
+            <span className="hidden md:inline">|</span> MAPS
+          </h3>
 
           <h4 className="text-lg font-bold mt-3">
             PT. Blasfolie Internasional Indonesia
@@ -51,22 +55,19 @@ const FooterComponent = () => {
             Ciampel, Karawang, West Java 41361
           </p>
 
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.0836196592336!2d107.29381447409858!3d-6.383208362434737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6975f480378e1f%3A0x517976add5ea2c35!2sPT%20Blasfolie%20Internasional%20Indonesia!5e0!3m2!1sen!2sid!4v1709626706390!5m2!1sen!2sid"
-            style={{
-              allowFullScreen: true,
-              loading: "lazy",
-              referrerPolicy: "no-referrer-when-downgrade",
-            }}
-            className="mx-auto rounded-xl mt-5 w-42 border-none md:w-60 md:ml-0"
-          ></iframe>
+          <div className="mx-auto">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.0836196592336!2d107.29381447409858!3d-6.383208362434737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6975f480378e1f%3A0x517976add5ea2c35!2sPT%20Blasfolie%20Internasional%20Indonesia!5e0!3m2!1sen!2sid!4v1709626706390!5m2!1sen!2sid"
+              className="rounded-xl mt-5 border-none w-full"
+            />
+          </div>
         </div>
       </div>
 
       <div className="text-center md:text-start mt-10 mx-5">
         <div>
           <h3 className="text-xl text-zink-900 mr-3 font-bold mb-3">
-            | PRODUCT
+            <span className="hidden md:inline">|</span> PRODUCT
           </h3>
 
           <Link href="#" className="font-bold">
@@ -81,7 +82,7 @@ const FooterComponent = () => {
 
         <div className="mt-10 md:mt-16">
           <h3 className="text-xl text-zink-900 mr-3 font-bold mb-3">
-            | CONTACT
+            <span className="hidden md:inline">|</span> CONTACT
           </h3>
 
           <Image

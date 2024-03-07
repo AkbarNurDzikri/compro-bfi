@@ -3,12 +3,11 @@ import productList from "@/utils/home/productList";
 import Image from "next/image";
 import Link from "next/link";
 import "swiper/css";
-// import { getStaticPaths } from "next";
 
 const ProductCarousel = () => {
   return (
     <>
-      <Swiper spaceBetween={0} slidesPerView={1}>
+      <Swiper spaceBetween={200} slidesPerView={2}>
         {productList.map((product) => (
           <SwiperSlide key={product.categoryName}>
             <div className="bg-slate-100/5 w-[250px] sm:w-[300px] md:w-[350px] lg:w-[400px] mx-auto p-5 mt-10 rounded-lg">
